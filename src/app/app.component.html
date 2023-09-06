@@ -25,7 +25,7 @@
           </button>
         </div>
       </div>
-      <div class="mt-14 flex ">
+      <div class="my-14 flex ">
         <div class="flex w-1/2 flex-col  justify-between">
           <div class=" flex rounded-xl bg-white p-10">
             <div class="rounded-3xl">
@@ -168,5 +168,48 @@
             </form>
           </div>
         </div>
+      </div>
+
+      <div class=" rounded-xl bg-white p-10">
+        <div class="flex justify-between">
+          <div>
+            <h2>حدد مواعيد العمل للمورد</h2>
+            <p>تكوين إعدادات الأسبوع الخاص بك هنا. ما عليك سوى تحريك أشرطة التمرير وإضافة / إزالة أوقات الراحة لإعداد ساعات العمل. </p>
+
+          </div>
+          <div class=" border border-gray-200 rounded-lg">
+            <ul class="grid w-full  md:grid-cols-2">
+    <li>
+        <input type="radio" id="hosting-small" name="hosting" value="hosting-small" class="hidden peer" required>
+        <label for="hosting-small" class="inline-flex items-center justify-between w-full px-5 py-3 text-gray-500 bg-white rounded-lg cursor-pointer  peer-checked:bg-blue-600 peer-checked:text-white hover:text-gray-600 hover:bg-gray-100  ">
+            <div class="block">
+                <p class="w-full text-sm ">إعدادات متقدمة</p>
+            </div>
+        </label>
+    </li>
+    <li>
+        <input type="radio" id="hosting-big" name="hosting" value="hosting-big" class="hidden peer">
+        <label for="hosting-big" class="inline-flex items-center justify-between w-full px-5 py-3 text-gray-500 bg-white rounded-lg cursor-pointer  peer-checked:bg-blue-600 peer-checked:text-white hover:text-gray-600 hover:bg-gray-100  ">
+            <div class="block">
+                <p class="w-full text-sm ">إعدادات تقليدية</p>
+            </div>
+        </label>
+    </li>
+</ul>
+
+
+          </div>
+
+        </div>
+        <div>
+                    <label class="relative inline-flex cursor-pointer items-center">
+            <input type="checkbox" value class="peer sr-only" />
+            <div
+              class="peer absolute h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+            <span class="mx-16 text-lg font-medium text-gray-900">السبت</span>
+          </label>
+        </div>
+
+
       </div>
     </main>
